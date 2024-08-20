@@ -28,3 +28,30 @@ nav ul li a:hover {
     background-color: #74283d;
     color: #fff; 
 }
+/*header*/
+.header {
+    background-image: url(../img/Para_blog.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-cont h1 {
+    margin: 0;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 6em;
+    color: #ffffff9a; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
