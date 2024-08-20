@@ -41,12 +41,13 @@ nav ul li a:hover {
     background-position: center;
     text-align: center;
     padding: 0;
-    height: 500px;
+    height: 650px;
     display: flex;
     align-items: center;
     justify-content: center;
     
 }
+
 
 .header-cont h1 {
     margin: 0;
@@ -74,8 +75,12 @@ nav ul li a:hover {
 }
 
 .card-body {
-    text-align: center; 
+    text-align: left; 
     margin-top: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    width: 600px;
+    float: right;
 }
 
 .card-title{
@@ -117,4 +122,112 @@ section img:hover{
     opacity: 1;
     filter: contrast(120%);
 }
+/*img*/
+.mx{
+    clip-path: polygon(0% 0%, 72% 0%, 90% 100%, 15% 100%)
 
+}
+.foto1{
+    max-width: 150px;
+    max-height: 350px;
+    position:relative ;
+    margin-top: 20%;
+    margin-left: 160px;
+    clip-path: circle(50%);
+    border: 2px solid red;
+    background-color: white;
+}
+
+
+/*Titulos*/
+.titulo2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -45px;
+
+}
+
+.margin{
+    margin-bottom: 20%;
+
+}
+
+.p1{
+    position: relative;
+    left: 11%;
+    top: 27px;
+    font-size: 21px;
+}
+
+.p2{
+    position: relative;
+    left: 44.5%;
+    bottom: 20px;
+    font-size: 21px;
+}
+
+.p3{
+    position:relative;
+    left: 73%;
+    bottom: 65px;
+    font-size: 21px;
+}
+
+.mi-buttom{
+    background-color:#ab8d5c;
+    color: black;
+    padding: 15px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.header2{
+    margin: 0;
+    padding: 0%;
+    background-color:#80253c;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    position:static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ab8d5c;
+    padding: 20px;
+}
+
+.im1{
+    max-width: 400px;
+    max-height: 600px;   
+    position: relative;
+    left: 94%;
+}
+.im2{
+    max-width: 200px;
+    max-height: 400px;   
+    position: relative;
+    right: 30%;
+}
+
+.im3{
+    max-width: 220px;
+    max-height: 400px;   
+    position: relative;
+    right: 5%;
+}
