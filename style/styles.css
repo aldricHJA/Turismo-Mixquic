@@ -1,57 +1,120 @@
-/* Reseteo básico de márgenes y paddings */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #ffffff;
-    background-color: #f4f4f4;
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    background: #d3dbdd;
-    color: #74283d;
-    padding: 5px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
+/*barra de navegación*/
+nav {
+    background-color: #d3dbdd;
+    overflow: hidden;
 }
 
 nav ul {
     list-style: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 10px;
 }
 
 nav ul li a {
-    color: #ab8d5c;
+    display: block;
+    color: #ab8d5c; 
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-main {
+nav ul li a:hover {
+    background-color: #74283d;
+    color: #fff; 
+}
+
+/*header*/
+.header {
+    background-image: url(../img/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 0;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-cont h1 {
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-size: 6em;
+    color: #fffffffd; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
-
-section {
-    margin-bottom: 20px;
+/*estilos de la card*/
+.centered-content {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.card{
+    border: none;
+    box-shadow: none;
 }
+
+.card-body {
+    text-align: center; 
+    margin-top: 70px;
+}
+
+.card-title{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+
+}
+.card img{
+    width: 300px;
+    height: 350px;
+}
+
+/*carrusel*/
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    width: 900px;
+    height: 500px;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+  
+section img:hover{
+    cursor: default;
+    width: 400px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
