@@ -7,6 +7,15 @@ body {
 nav {
     background-color: #d3dbdd;
     overflow: hidden;
+    height: 100px;
+}
+
+.logo img {
+    height: 40px;
+    width: 40;
+    position: relative;
+    top: 50px;
+    overflow: hidden;
 }
 
 nav ul {
@@ -53,7 +62,7 @@ nav ul li a:hover {
     margin: 0;
     font-family: "Pacifico", cursive;
     font-size: 6em;
-    color: #fffffffd; 
+    color: #ffffffce; 
 }
 
 .container {
@@ -208,7 +217,7 @@ section img:hover{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #ab8d5c;
+    background-color: #ab8d5cb2;
     padding: 20px;
 }
 

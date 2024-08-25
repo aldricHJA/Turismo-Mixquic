@@ -2,6 +2,14 @@
 nav {
     background-color: #d3dbdd;
     overflow: hidden;
+    height: 100px;
+}
+.logo img {
+    height: 40px;
+    width: 40;
+    position: relative;
+    top: 50px;
+    
 }
 
 nav ul {
@@ -46,7 +54,7 @@ nav ul li a:hover {
     margin: 0;
     font-family: "Big Shoulders Display", sans-serif;
     font-size: 6em;
-    color: #ffffff9a; 
+    color: #ffffffb4; 
 }
 
 .container {
@@ -54,4 +62,24 @@ nav ul li a:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+}
+
+#carouselExampleInterval{
+    margin-top: 80px;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -45px;
+
+}
+
+#card-cont{
+    margin-top: 100px;
+}
+.card {
+    margin-top: 20px;
 }
